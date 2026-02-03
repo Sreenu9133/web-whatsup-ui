@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.master{
+    background-color: #FCF5EB;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    color: #39a341;
+}
+
+.logo img{
+    width: 2%;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main{
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+
+
+.main-text{
+    width: 55%;  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    height: 30vh; */
+}
+
+.main-text h1 {
+    margin-bottom: 35px;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.main-text ol{
+    padding-left: 20px;
+}
+
+.main-text li{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.main-text li img{
+    width: 4%;
+}
+
+
+span{
+    display: flex;
+    font-weight: 500;
+}
+
+span img{
+    width: 3%;
+}
+
+.checkbox{
+    margin-top: 25px;
+    accent-color: #39a341;
+}
+
+.main-qr{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-qr p{
+     /* display: inline-block;      */
+    /* font-size: 14px; */
+    color: #111B21;
+    border-bottom: 1px solid #39a341;  
+    /* padding-bottom: 2px; */
+}
+
+.main-qr p:hover{
+    color: #39a341;
+}
+
+.main-qr img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.outside-main{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column1{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #111B21;
+}
+
+.column2{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #65625E;
+}
+
+
+.column1 p{
+    font-size: 18px;
+}
+
+.column1 img{
+    width: 5%;
+}
+
+.get-started{
+    border-bottom: 2px solid #39a341;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.get-started:hover{
+    color: #39a341;
+}
+
+
+
+.terms{
+    color: #65625E;
+}
+
