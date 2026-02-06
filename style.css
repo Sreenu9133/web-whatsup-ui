@@ -53,7 +53,7 @@
 
 .main-text h1 {
     margin-bottom: 35px;
-    font-size: 33px;
+    font-size: 35px;
     font-weight: 400;
 }
 
@@ -63,8 +63,8 @@
 
 .main-text li{
     font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .main-text li img{
@@ -84,6 +84,8 @@ span img{
 .checkbox{
     margin-top: 25px;
     accent-color: #39a341;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .main-qr{
@@ -94,11 +96,10 @@ span img{
 }
 
 .main-qr p{
-     /* display: inline-block;      */
-    /* font-size: 14px; */
     color: #111B21;
     border-bottom: 1px solid #39a341;  
-    /* padding-bottom: 2px; */
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .main-qr p:hover{
@@ -137,6 +138,12 @@ span img{
 
 .column1 p{
     font-size: 18px;
+    font-weight: 500;
+}
+
+.column2 p{
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .column1 img{
@@ -157,5 +164,7 @@ span img{
 
 .terms{
     color: #65625E;
+    font-size: 16px;
+    font-weight: 400;
 }
 
